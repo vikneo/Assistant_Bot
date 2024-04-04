@@ -29,7 +29,7 @@ def helps(message: telebot.types.Message) -> None:
 @bot.message_handler(content_types=['text'])
 def text(message: types.Message) -> None:
     bot.send_message(message.chat.id,
-                     text='В следующей версии, возможно мы сможем и поговорить\n'
+                     text='Скоро мы сможем и поговорить\n'
                           'а сейчас для помощи нажмите <b>/help</b>',
                      parse_mode='HTML'
                      )
